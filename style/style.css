@@ -1,0 +1,320 @@
+
+.open-sans-normal{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 3px;
+    padding: 3px;
+}
+header{
+    margin: 0px 0px;
+}
+.header-bg{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) ,url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: cover;
+    background-color: #FFF8F3;
+}
+
+body{
+    margin: 0px 0px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.logo-title{
+    font-weight:800;
+    font-size: 30px;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+nav ul :hover{
+    color: #FD6E0A
+}
+
+
+nav ul a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+    
+}
+
+.banner{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+        width: 80%;
+    margin: auto;
+}
+.banner-left h1{
+    margin: 0px;
+}
+.banner-left h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.banner-right {
+    width: 40%;
+}
+
+.banner-right img{
+    width: 100%;
+}
+
+.button-section{
+    margin-top: 30px;
+}
+
+
+.manager-details{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-us{
+    width: 60%;
+    margin: 35px auto;
+    background-color: #FFF8F3;
+    padding: 50px;
+}
+.section-heading{
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.section-heading p{
+    font-size: 10px;
+    width: 80%;
+    margin: 0px auto;
+    color: #757575;
+}
+
+.manager-details{
+    width: 80%;
+    margin: 0px auto;
+}
+.manager-details h6{
+    font-size: 10px;
+    /* color: #757575; */
+    font-weight: 300;
+}
+.manager-details h5{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+.what-we-do{
+     width: 60%;
+     margin: 0px auto;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    margin: 15px 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+     .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+        }
+.card i{
+    padding: 10px;
+}
+.card h3{
+    font-size: 12px;
+}
+#web-dev{
+    font-size: 10px;
+}
+.card p{
+    font-size: 10px;
+    color: #757575;
+}
+
+.summary-of-us{
+    margin: 30px auto;
+}
+
+.summary-content{
+display: flex;
+    width: 80%;
+    margin: 25px auto;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.summary-content h4{
+    font-size: 14px;
+}
+.summary-content p{
+    font-size: 12px;
+}
+
+.service-list{
+        height: 85px;
+            width: 90%;
+}
+.why-famous{
+        height: 85px;
+            width: 90%;
+}
+.membership-btn{
+    /* margin: 25px auto; */
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: #FFF8F3;
+    
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: space-around;
+   align-items: start;
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px;
+   
+}
+
+.social-icons i{
+    color: black;
+    padding: 5px;
+    font-size: 10px;
+}
+.footer-right input,
+.footer-right textarea {
+  border: none;              /* remove border */
+  outline: none;             /* remove blue outline on click */
+  padding: 12px 15px;        /* make bigger */
+  font-size: 16px;           /* slightly larger text */
+  border-radius: 6px;        /* optional smooth corners */
+  width: 60%;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+/* Placeholder fade color */
+.footer-right input::placeholder,
+.footer-right textarea::placeholder {
+  color: rgba(0, 0, 0, 0.4);   /* faded grey */
+  font-size: 8px;
+}
+.footer-right button {
+  /* optional: full width button */
+  /* padding: 12px; */
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shared - css */
+.btn {
+  background-color: #FD6E0A;
+  color: white;
+ padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+   cursor: pointer;
+  transition:  0.3s ease; /* smooth effect */
+  
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.secondary-btn{
+      background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+   cursor: pointer;
+  transition:  0.3s ease; /* smooth effect */
+}
+.secondary-btn:hover {
+  background-color: #FD6E0A;
+  color:white ;
+}
+
+.description{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.section-description{
+     font-size: 10px;
+    width: 80%;
+    margin: 0px auto;
+    color: #757575;
+    text-align: center;
+}
+
+.section-title h3{
+    font-size: 17px;
+    margin: 0px auto ;
+    text-align: center;
+
+}
+hr{
+    width: 70%;
+    margin: initial;
+    margin: 10px;
+}
+
+.primary-color{
+    color: #FD6E0A;
+}
